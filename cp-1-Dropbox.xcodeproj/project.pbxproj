@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A0935921BAB76E100027441 /* ExistingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0935911BAB76E100027441 /* ExistingPhotosViewController.swift */; };
+		3A094C1A1BAFC8800063D597 /* SettingsNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A094C191BAFC8800063D597 /* SettingsNewViewController.swift */; };
+		3A0CAE1D1BB0EE53006717EB /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0CAE1C1BB0EE53006717EB /* LogInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3A0E06281BA8D3D200B1B198 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E06271BA8D3D200B1B198 /* AppDelegate.swift */; };
+		3A0E062D1BA8D3D200B1B198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E062B1BA8D3D200B1B198 /* Main.storyboard */; };
+		3A0E062F1BA8D3D200B1B198 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E062E1BA8D3D200B1B198 /* Images.xcassets */; };
+		3A0E06321BA8D3D200B1B198 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E06301BA8D3D200B1B198 /* LaunchScreen.xib */; };
+		3A0E063E1BA8D3D200B1B198 /* cp_1_DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E063D1BA8D3D200B1B198 /* cp_1_DropboxTests.swift */; };
+		3A26E2941BB0D788007B0A7F /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A26E2931BB0D788007B0A7F /* CreateAccountRootViewController.swift */; };
+		3A26E2961BB0D798007B0A7F /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A26E2951BB0D798007B0A7F /* SignInRootViewController.swift */; };
+		3A6C7FD31BAFDAC400D74407 /* SignUpFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C7FD21BAFDAC400D74407 /* SignUpFormViewController.swift */; };
+		3A8159FF1BB0EC7700A8B409 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8159FE1BB0EC7700A8B409 /* TermsViewController.swift */; };
+		3AB530BF1BAB1B88007867CA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB530BE1BAB1B88007867CA /* SettingsViewController.swift */; };
+		3ACDF1201BAE98D4003F6FEE /* onBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDF11F1BAE98D4003F6FEE /* onBoardViewController.swift */; };
+		3AEAABF81BB0797B0098A771 /* SignInFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEAABF71BB0797B0098A771 /* SignInFormViewController.swift */; };
+		3AEAABFA1BB08E540098A771 /* InitialSignInTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEAABF91BB08E540098A771 /* InitialSignInTabController.swift */; };
+		3AEAABFC1BB09D060098A771 /* UserSignInTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEAABFB1BB09D060098A771 /* UserSignInTabController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A0E06381BA8D3D200B1B198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A0E061A1BA8D3D200B1B198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A0E06211BA8D3D200B1B198;
+			remoteInfo = "cp-1-Dropbox";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A0935911BAB76E100027441 /* ExistingPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingPhotosViewController.swift; sourceTree = "<group>"; };
+		3A094C191BAFC8800063D597 /* SettingsNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsNewViewController.swift; sourceTree = "<group>"; };
+		3A0CAE1C1BB0EE53006717EB /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		3A0E06221BA8D3D200B1B198 /* cp-1-Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cp-1-Dropbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0E06261BA8D3D200B1B198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A0E06271BA8D3D200B1B198 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A0E062C1BA8D3D200B1B198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A0E062E1BA8D3D200B1B198 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3A0E06311BA8D3D200B1B198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3A0E06371BA8D3D200B1B198 /* cp-1-DropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cp-1-DropboxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0E063C1BA8D3D200B1B198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A0E063D1BA8D3D200B1B198 /* cp_1_DropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cp_1_DropboxTests.swift; sourceTree = "<group>"; };
+		3A26E2931BB0D788007B0A7F /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		3A26E2951BB0D798007B0A7F /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		3A6C7FD21BAFDAC400D74407 /* SignUpFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpFormViewController.swift; sourceTree = "<group>"; };
+		3A8159FE1BB0EC7700A8B409 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		3AB530BE1BAB1B88007867CA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3ACDF11F1BAE98D4003F6FEE /* onBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = onBoardViewController.swift; sourceTree = "<group>"; };
+		3AEAABF71BB0797B0098A771 /* SignInFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInFormViewController.swift; sourceTree = "<group>"; };
+		3AEAABF91BB08E540098A771 /* InitialSignInTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialSignInTabController.swift; sourceTree = "<group>"; };
+		3AEAABFB1BB09D060098A771 /* UserSignInTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSignInTabController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A0E061F1BA8D3D200B1B198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0E06341BA8D3D200B1B198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A0E06191BA8D3D200B1B198 = {
+			isa = PBXGroup;
+			children = (
+				3A0E06241BA8D3D200B1B198 /* cp-1-Dropbox */,
+				3A0E063A1BA8D3D200B1B198 /* cp-1-DropboxTests */,
+				3A0E06231BA8D3D200B1B198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A0E06231BA8D3D200B1B198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E06221BA8D3D200B1B198 /* cp-1-Dropbox.app */,
+				3A0E06371BA8D3D200B1B198 /* cp-1-DropboxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A0E06241BA8D3D200B1B198 /* cp-1-Dropbox */ = {
+			isa = PBXGroup;
+			children = (
+				3A26E2931BB0D788007B0A7F /* CreateAccountRootViewController.swift */,
+				3AEAABF91BB08E540098A771 /* InitialSignInTabController.swift */,
+				3A26E2951BB0D798007B0A7F /* SignInRootViewController.swift */,
+				3A0E06271BA8D3D200B1B198 /* AppDelegate.swift */,
+				3AEAABFB1BB09D060098A771 /* UserSignInTabController.swift */,
+				3A0E062B1BA8D3D200B1B198 /* Main.storyboard */,
+				3A0CAE1C1BB0EE53006717EB /* LogInViewController.swift */,
+				3ACDF11F1BAE98D4003F6FEE /* onBoardViewController.swift */,
+				3A8159FE1BB0EC7700A8B409 /* TermsViewController.swift */,
+				3A6C7FD21BAFDAC400D74407 /* SignUpFormViewController.swift */,
+				3AEAABF71BB0797B0098A771 /* SignInFormViewController.swift */,
+				3AB530BE1BAB1B88007867CA /* SettingsViewController.swift */,
+				3A094C191BAFC8800063D597 /* SettingsNewViewController.swift */,
+				3A0935911BAB76E100027441 /* ExistingPhotosViewController.swift */,
+				3A0E062E1BA8D3D200B1B198 /* Images.xcassets */,
+				3A0E06301BA8D3D200B1B198 /* LaunchScreen.xib */,
+				3A0E06251BA8D3D200B1B198 /* Supporting Files */,
+			);
+			path = "cp-1-Dropbox";
+			sourceTree = "<group>";
+		};
+		3A0E06251BA8D3D200B1B198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E06261BA8D3D200B1B198 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A0E063A1BA8D3D200B1B198 /* cp-1-DropboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E063D1BA8D3D200B1B198 /* cp_1_DropboxTests.swift */,
+				3A0E063B1BA8D3D200B1B198 /* Supporting Files */,
+			);
+			path = "cp-1-DropboxTests";
+			sourceTree = "<group>";
+		};
+		3A0E063B1BA8D3D200B1B198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E063C1BA8D3D200B1B198 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A0E06211BA8D3D200B1B198 /* cp-1-Dropbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A0E06411BA8D3D200B1B198 /* Build configuration list for PBXNativeTarget "cp-1-Dropbox" */;
+			buildPhases = (
+				3A0E061E1BA8D3D200B1B198 /* Sources */,
+				3A0E061F1BA8D3D200B1B198 /* Frameworks */,
+				3A0E06201BA8D3D200B1B198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cp-1-Dropbox";
+			productName = "cp-1-Dropbox";
+			productReference = 3A0E06221BA8D3D200B1B198 /* cp-1-Dropbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A0E06361BA8D3D200B1B198 /* cp-1-DropboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A0E06441BA8D3D200B1B198 /* Build configuration list for PBXNativeTarget "cp-1-DropboxTests" */;
+			buildPhases = (
+				3A0E06331BA8D3D200B1B198 /* Sources */,
+				3A0E06341BA8D3D200B1B198 /* Frameworks */,
+				3A0E06351BA8D3D200B1B198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A0E06391BA8D3D200B1B198 /* PBXTargetDependency */,
+			);
+			name = "cp-1-DropboxTests";
+			productName = "cp-1-DropboxTests";
+			productReference = 3A0E06371BA8D3D200B1B198 /* cp-1-DropboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A0E061A1BA8D3D200B1B198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = los;
+				TargetAttributes = {
+					3A0E06211BA8D3D200B1B198 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3A0E06361BA8D3D200B1B198 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3A0E06211BA8D3D200B1B198;
+					};
+				};
+			};
+			buildConfigurationList = 3A0E061D1BA8D3D200B1B198 /* Build configuration list for PBXProject "cp-1-Dropbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A0E06191BA8D3D200B1B198;
+			productRefGroup = 3A0E06231BA8D3D200B1B198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A0E06211BA8D3D200B1B198 /* cp-1-Dropbox */,
+				3A0E06361BA8D3D200B1B198 /* cp-1-DropboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A0E06201BA8D3D200B1B198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0E062D1BA8D3D200B1B198 /* Main.storyboard in Resources */,
+				3A0E06321BA8D3D200B1B198 /* LaunchScreen.xib in Resources */,
+				3A0E062F1BA8D3D200B1B198 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0E06351BA8D3D200B1B198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A0E061E1BA8D3D200B1B198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AEAABF81BB0797B0098A771 /* SignInFormViewController.swift in Sources */,
+				3A0935921BAB76E100027441 /* ExistingPhotosViewController.swift in Sources */,
+				3AEAABFC1BB09D060098A771 /* UserSignInTabController.swift in Sources */,
+				3A6C7FD31BAFDAC400D74407 /* SignUpFormViewController.swift in Sources */,
+				3A0E06281BA8D3D200B1B198 /* AppDelegate.swift in Sources */,
+				3A26E2941BB0D788007B0A7F /* CreateAccountRootViewController.swift in Sources */,
+				3A0CAE1D1BB0EE53006717EB /* LogInViewController.swift in Sources */,
+				3A094C1A1BAFC8800063D597 /* SettingsNewViewController.swift in Sources */,
+				3A26E2961BB0D798007B0A7F /* SignInRootViewController.swift in Sources */,
+				3ACDF1201BAE98D4003F6FEE /* onBoardViewController.swift in Sources */,
+				3AEAABFA1BB08E540098A771 /* InitialSignInTabController.swift in Sources */,
+				3A8159FF1BB0EC7700A8B409 /* TermsViewController.swift in Sources */,
+				3AB530BF1BAB1B88007867CA /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0E06331BA8D3D200B1B198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0E063E1BA8D3D200B1B198 /* cp_1_DropboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A0E06391BA8D3D200B1B198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A0E06211BA8D3D200B1B198 /* cp-1-Dropbox */;
+			targetProxy = 3A0E06381BA8D3D200B1B198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A0E062B1BA8D3D200B1B198 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A0E062C1BA8D3D200B1B198 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A0E06301BA8D3D200B1B198 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A0E06311BA8D3D200B1B198 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A0E063F1BA8D3D200B1B198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A0E06401BA8D3D200B1B198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A0E06421BA8D3D200B1B198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "cp-1-Dropbox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theorize.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A0E06431BA8D3D200B1B198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "cp-1-Dropbox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theorize.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A0E06451BA8D3D200B1B198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cp-1-DropboxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theorize.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cp-1-Dropbox.app/cp-1-Dropbox";
+			};
+			name = Debug;
+		};
+		3A0E06461BA8D3D200B1B198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cp-1-DropboxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theorize.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cp-1-Dropbox.app/cp-1-Dropbox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A0E061D1BA8D3D200B1B198 /* Build configuration list for PBXProject "cp-1-Dropbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0E063F1BA8D3D200B1B198 /* Debug */,
+				3A0E06401BA8D3D200B1B198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A0E06411BA8D3D200B1B198 /* Build configuration list for PBXNativeTarget "cp-1-Dropbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0E06421BA8D3D200B1B198 /* Debug */,
+				3A0E06431BA8D3D200B1B198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A0E06441BA8D3D200B1B198 /* Build configuration list for PBXNativeTarget "cp-1-DropboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0E06451BA8D3D200B1B198 /* Debug */,
+				3A0E06461BA8D3D200B1B198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A0E061A1BA8D3D200B1B198 /* Project object */;
+}
