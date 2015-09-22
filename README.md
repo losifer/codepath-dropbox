@@ -27,4 +27,4 @@ Time spent: Approximately 11 hours
 
 6. Sign In and Create Account button enabling with empty form field validation
 
-<img src="https://github.com/losifer/dropbox/blob/dropbox/dropbox.gif" alt="Dropbox Prototype Screen Demo" width="320" />
+<img src="https://github.com/losifer/codepath-dropbox/blob/master/dropbox.gif" alt="Dropbox Prototype Screen Demo" width="320" />
