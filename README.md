@@ -4,6 +4,8 @@ This is a prototype for the Dropbox app displaying basic user login and error ha
 
 Time spent: Approximately 11 hours development + several hours QA and Testing
 
+Optimized for iPhone 5s (portrait)
+
 # Required items:
 
 1. App Icon and Splash Screen
