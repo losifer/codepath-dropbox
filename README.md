@@ -22,5 +22,13 @@ Time spent: Approximately 11 hours development + several hours QA and Testing
 5. Added error handling alerts and new user password using label string change and view color changes
 6. Sign In and Create Account button enabling with empty form field validation
 
+# Resources:
+
+1. Codepath Guides & Facebook Group (Much Thanks!)
+2. <a href="http://nshipster.com/">NShipster</a>
+3. Frantic Google searching
+4. Previous failures
+
 <img src="https://github.com/losifer/codepath-dropbox/blob/master/dropbox.gif" alt="Dropbox Prototype Screen Demo" width="320" />
+
 <a href="http://www.cockos.com/licecap/">LICEcap - simple animated screen captures</a>
