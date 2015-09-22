@@ -25,7 +25,7 @@ Logging Out
 # Optionals and Extras:
 
 1. Added UI TextFields for the forms with keyboard dismiss
-</li>
+
 2. Added swipe/paging capabilities for onboarding welcome screens
 
 3. Use of navigation bar buttons
