@@ -2,7 +2,7 @@
 
 This is a prototype for the Dropbox app displaying basic user login and error handling.
 
-Time spent: Approximately 11 hours
+Time spent: Approximately 11 hours development + several hours QA and Testing
 
 # Completed items:
 
